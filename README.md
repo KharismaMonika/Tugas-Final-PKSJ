@@ -34,19 +34,27 @@ Lalu tekan enter.
 Perhatikan frasa logged in as Admin:admin
 
 ### Lesson 6
+
 ### Lesson 7
-   #### Section 7 : Start Web Browser Session to Mutillidae
-   1. IP/mutillidae
-   #### Section 8 : Go To User Info Page
-   1. OWASP Top 10 --> A1 - SQL Injection --> SQLi - Extract Data --> User Info
+ 1. Buka Mutillidae pada Browser dengan IP/mutillidae
+ 2. OWASP Top 10 --> A1 - SQL Injection --> SQLi - Extract Data --> User Info
+ ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_7/section%208%20user%20info.PNG "Tampilan USer Info")
+ 3. Settig proxy firefox dengan alamat 127.0.0.1:8080
+ 4. Setting Burpsuite, dengan menonaktifkan intercept
+ 5. Di page user info masukkan username:
+  ' 1=1-- 
+  Lihat URL yang dihasilkan. Url yang dihasilkan seperti berikut : 
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_5/bypass_password_username_test.png "Tampilan User Page Info")
+  http://192.168.149.101/mutillidae/index.php?page=user-info.php&username=%27+or+1%3D1--+&password=&user-info-php-submit-button=View+Account+Details
+      Terlihat +or+1%3D1-- 
+        Keterangan :
+        + : space
+        %3D : =
+   ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_7/section%2011%20error%20username.PNG "Error Username")
+  6. Lihat di history http di burpsuite. History burpsuite menunjukkan encoded sql injection. Untuk proses selanjutnya menggunakan curl.
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_7/history%20burpsuite.PNG "History burpsuite")
+  7. SQL injection dengan curl
    
-   #### Section 11: SQL Injection: Obtain Userlist (Method #1)
-   1. Di page user info masukkan username: ' 1=1-- 
-   2. Lihat URL yang dihasilkan. Url yang dihasilkan seperti berikut : http://192.168.149.101/mutillidae/index.php?page=user-info.php&username=%27+or+1%3D1--+&password=&user-info-php-submit-button=View+Account+Details
-    Terlihat +or+1%3D1-- 
-      Keterangan :
-      + : space
-      %3D : =
 ### Lesson 8
 ### Lesson 9
 ### Lesson 10

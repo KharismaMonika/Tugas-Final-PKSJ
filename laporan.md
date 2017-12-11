@@ -212,7 +212,7 @@ pada gambar 192.168.56.101/mutillidae
 pada gambar 192.168.56.101/mutillidae/upload_file.php
 
 13. Pilih browse untuk memilih file yang akan diupload. cari file c99.php (jika tidak ada dapat menjalankan perintah [cp c99.php.bkp c99.php] terlebih dahulu)
-  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_11/4.2.png "browse file" 
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_11/4.2.png "browse file") 
 Setelah itu pilih ok dan tekan submit_query.
 
 14. Ketikan perintah URL sebagai berikut [IP_metasploitable]/mutillidae/c99.php seperti pada gambar

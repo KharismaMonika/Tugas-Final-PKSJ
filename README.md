@@ -22,11 +22,7 @@ Tugas final PKSJ 2017
 [Laporan Lesson 11](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/mutillidae_lesson11.md)
 
 ## Cuckoo
-### Instalasi
-### Konfigurasi
-### Testing
+[Laporan Cuckoo](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/cuckoo.md)
 
 ## Snort
-### Instalasi
-### Konfigurasi
-### Testing
+[Laporan Snort](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/snort.md)

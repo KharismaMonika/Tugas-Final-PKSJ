@@ -4,7 +4,7 @@ Pada tugas ini menggunakan sistem operasi windows
  1. Snort dapat diunduh di [www.snort.org](https://www.snort.org/)
  2. Download file .exe snort dan rules.
  3. Install snort dari file .exe, lakukan seperti penginstalan aplikasi pada umumnya.
- 4. Install snort ini sudah termasuk winPcap
+ 4. Download dan install wincap dari [download](https://www.winpcap.org/install/)
  5. Mengecek versi snort, dapat dilakukan menggunakan CMD, membuka direktory dimana snort diinstal.
  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Screenshoot%20Snort/install%20done.PNG "Install Snort Berhasil")
  6. Ekstrak rules dan masukkan pada folder rules snort

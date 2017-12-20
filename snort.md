@@ -38,3 +38,6 @@ Tahap ini bertujuan untuk membaca file pcap.
  1. Download file pcap
  2. Buka CMD, buka direktori C:\Snort\bin
  3. Jalankan perintah snort -r directory\file.pcap
+ 4. Dokumentasi testing :
+
+ 

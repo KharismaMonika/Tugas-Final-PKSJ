@@ -4,8 +4,7 @@ Mari ikuti langkah-langkah berikut:
 
 
 1. masuk kedalam operating metasploit. ketik masuk kedalam mysql sebagai root. kemudian ketikkan perintah "show databases;" untuk melihat seluruh isi didalam database mysql metasploit. apabila terdapat database owasp10. gunakan database tersebut. kemudian tampilkan tabel yang terdapat didalamnya menggunakan perintah "show tables;"
-
-![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/Lesson_9/1.PNG "gambar1")
+![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/lesson_9/1.PNG "gambar1")
 
 2. Kemudian kita lihat tabel account dan tabel credit_card dengan cara "desc (nama tabel)"
 ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/lesson_9/2.PNG "gambar1")

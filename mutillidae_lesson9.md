@@ -10,6 +10,7 @@ Mari ikuti langkah-langkah berikut:
 ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/lesson_9/2.PNG "gambar1")
 
 3. kemudian kita coba untuk menggabungkan antara kolom account dengan kolom credit card menggunakan perintah union
+
 ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/lesson_9/3.PNG "gambar1")
 
 4. apabila sudah, kita akan membuat output file yang berisi hasil union dari kedua tabel diatas dalam bentuk csv menggunakan perintah sebagai berikut:

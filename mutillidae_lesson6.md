@@ -5,7 +5,7 @@ B. cara masuk sebagai user / pengguna tertentu tanpa melakukan login menggunakan
 A. cara mengetahui isi dari suatu paket (POST) menggunakan burpsuite dan curl
 
 1. Buka burpsuite didalam kali linux. kemudian pilih tab proxy -> option . pastikan port 8080 atau localhost pada kolom running tercentang
-![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/lesson 6/1.png "gambar1")
+![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Mutillidae/lesson_6/1.png "gambar1")
 2. Lalu pada bagian proxy -> interception, pastikan intercept dalam kondisi off.
 
 3. Buka browser, lalu masukkan alamat ip mutillidae: 192.168.56.101/mutillidae. kemudian pilih menu login/register

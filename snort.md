@@ -39,5 +39,9 @@ Tahap ini bertujuan untuk membaca file pcap.
  2. Buka CMD, buka direktori C:\Snort\bin
  3. Jalankan perintah snort -r directory\file.pcap
  4. Dokumentasi testing :
+ 
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Screenshoot%20Snort/testing1.PNG "Testing 1")
+  
+  ![alt text](https://github.com/KharismaMonika/Tugas-Final-PKSJ/blob/master/Screenshoot%20Snort/testing2.PNG "Testing 2")
 
  

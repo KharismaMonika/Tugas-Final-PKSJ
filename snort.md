@@ -33,6 +33,8 @@ Terdapat beberapa hal yang diperlu disetting dalam file konfigurasi ini, antara 
  	Tahap ini perlu dilakukan uncomment include.
  9. Customize shared object rule set
  	Tahap ini dibiarkan saja, settingan defaultnya.
+
+Setelah konfigurasi perlu dilakukan validasi konfigurasi dengan perintah, snort -c -C:\Snort\etc\snort.conf -T, perintah ini dijalankan pada CMD sebagai administrator.
 ### Testing
 Tahap ini bertujuan untuk membaca file pcap.
  1. Download file pcap
